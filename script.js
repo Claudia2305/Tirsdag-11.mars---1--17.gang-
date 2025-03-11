@@ -16,7 +16,8 @@ convertButton.addEventListener("click", function () {
 
   if (unitFrom === "MM" && unitTo === "CM") {
     let result = unitInput / 10
-    const displayResult = document.
-    querySelector("displayResult");
-  }
+    const displayResult = document.querySelector("displayResult");
+    displayResult.textContent = result;
+  } else {console.log("Julie vil ikke gjøre matte mer");}
+  
 });
